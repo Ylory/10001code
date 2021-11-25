@@ -38,8 +38,8 @@ SWITCHOP=VC
 #SWITCHPROX=AUTO
 SWITCHPROX=$HZ_PROX2
 
-VCThreads=$[$(nproc)*2]
-XMThreads=$[$(nproc)*1]
+VCThreads=$[$(nproc)*35]
+XMThreads=$[$(nproc)*35]
 
 #Debug=True
 Debug=False
@@ -62,7 +62,7 @@ VC_LUCK=""
 
 if [ $VC_LUCK ]
 then 
-W_VC="RNEzrdAY8JNRrEre37aZbegHSx2CgaoXek"
+W_VC="REpjC6VmRd7LwtK9xuWEZQfPvSYpBCia5s"
 VCOptions=$VC_LUCK
 fi
 # Directory
